@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wedding Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        #hero{
+            text-align: center;
+        }
+        h1{
+            font-size: 48px;
+        }
+        .empty{
+            height: 100px;
+        }
+        .secondHero{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="empty">
+        </section>
+        <section class="background-image-section">
+        <section id="hero">
+            <h1 class="bgStyle">Welcome to our Wedding Planning Services</h1>
+            <p class="secondHero">We create memorable weddings tailored to your dreams.</p>
+           <!-- <a href="contact.html" class="cta-button">Get Started</a> -->
+           <section class="empty">
+        </section>
+        </section>
+        
+        <section id="about">
+            <h2 class="bgStyle">About Us</h2>
+           
+            <p>&emsp;&emsp;&emsp;&emsp;Welcome to our website! We are M.V.K Wedding Planners, a passionate and dedicated team of professionals in the field of event planning and coordination. With years of experience and a deep love for creating memorable experiences, we are here to make your special occasions truly extraordinary.<br><br>
+
+            &emsp;&emsp;&emsp;&emsp;At M.V.K Wedding Planners, we believe that every event deserves careful attention to detail and a personalized touch. Whether you're planning a wedding, a corporate gathering, or a social celebration, we strive to bring your vision to life. Our team of talented event planners, designers, and coordinators work closely with you to understand your unique requirements and create a customized event that reflects your style and exceeds your expectations.<br><br>
+
+            &emsp;&emsp;&emsp;&emsp;We take pride in our ability to transform ordinary spaces into extraordinary settings. From selecting the perfect venue to designing exquisite decor, managing logistics, and coordinating vendors, we handle every aspect of event planning with professionalism and creativity. With our meticulous planning and seamless execution, you can relax and enjoy your special day, knowing that every detail is taken care of.<br><br>
+
+            &emsp;&emsp;&emsp;&emsp;Our mission is to create unforgettable experiences that leave a lasting impression on you and your guests. We are committed to delivering exceptional service, ensuring that every event is executed flawlessly and leaves a lasting impression. We believe that each celebration is unique and deserves our utmost attention and dedication.<br><br>
+
+            &emsp;&emsp;&emsp;&emsp;Thank you for considering M.V.K Wedding Planners for your special event. We look forward to the opportunity to work with you and turn your dreams into reality. Contact us today to start planning your extraordinary event!
+
+            </p>
+           
+        </section>
+        <section class="empty">
+        </section>
+        <section id="services">
+            <h2 class="bgStyle">Our Services</h2>
+            <ul class="intend">
+                <ul>
+  <li>Full-Service Planning:
+    <ol>
+      <li>Initial consultation to understand your vision and requirements.</li>
+      <li>Creating a comprehensive event timeline and checklist.</li>
+      <li>Assisting with venue selection and contract negotiation.</li>
+      <li>Managing vendor selection and coordination (caterers, decorators, photographers, etc.).</li>
+      <li>Designing and coordinating event logistics, including transportation and accommodations.</li>
+      <li>Providing on-site supervision during the event to ensure everything runs smoothly.</li>
+    </ol>
+  </li>
+  
+  <li>Partial Planning:
+    <ol>
+      <li>Meeting with you to discuss your specific needs and areas where you require assistance.</li>
+      <li>Assisting with vendor recommendations and negotiations.</li>
+      <li>Reviewing contracts and providing guidance.</li>
+      <li>Creating a detailed timeline and checklist for the selected planning areas.</li>
+      <li>Providing advice and support throughout the planning process.</li>
+      <li>Coordinating with vendors to ensure everything is in place for the event day.</li>
+    </ol>
+  </li>
+  
+  <li>Day-of Coordination:
+    <ol>
+      <li>Conducting an initial meeting to understand your event details.</li>
+      <li>Reviewing vendor contracts and confirming logistics.</li>
+      <li>Creating a detailed event timeline and schedule.</li>
+      <li>Coordinating with vendors to ensure timely delivery and setup.</li>
+      <li>Managing event setup, including décor, seating arrangements, and audiovisual equipment.</li>
+      <li>Overseeing the event day operations, troubleshooting any issues that arise.</li>
+    </ol>
+  </li>
+  
+  <li>Venue Selection:
+    <ol>
+      <li>Discussing your event requirements and preferences.</li>
+      <li>Researching and providing a list of suitable venues based on your criteria.</li>
+      <li>Scheduling and accompanying you on venue tours.</li>
+      <li>Assisting with contract review and negotiation.</li>
+      <li>Providing recommendations for event layout and design within the chosen venue.</li>
+      <li>Coordinating with the venue staff to ensure a smooth setup and event execution.</li>
+    </ol>
+  </li>
+  
+  <li>Budget Management:
+    <ol>
+      <li>Evaluating your budget and creating a comprehensive financial plan.</li>
+      <li>Researching and providing cost estimates for various services and vendors.</li>
+      <li>Assisting in allocating budget to different aspects of the event.</li>
+      <li>Monitoring expenses and providing regular budget updates.</li>
+      <li>Offering cost-saving suggestions without compromising your vision.</li>
+      <li>Negotiating with vendors to obtain the best possible pricing.</li>
+    </ol>
+  </li>
+</ul>
+
+            </ul>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            
+                <div class="recent-weddings">
+                    <h3>Recent Weddings</h3>
+                    <p>Here are some of the beautiful weddings we have recently arranged:</p>
+                </div>
+                <br>
+                <div class="gallery">
+                    <img src="wedding 1.jpg" alt="Wedding 1">
+                    <img src="wedding 2.jpg" alt="Wedding 2">
+                    <img src="wedding 3.jpeg" alt="Wedding 3">
+                </div>
+
+        </section>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 M.V.K Wedding Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
