@@ -104,8 +104,8 @@ form input[type="submit"] {
 }
 
 footer {
-    color: black;
-    background-color: yellow;
+    /*color: black;*/
+    background-color: black;
     padding: 10px;
     text-align: center;
 }
